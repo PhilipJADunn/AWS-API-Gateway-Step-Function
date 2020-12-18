@@ -40,12 +40,16 @@ On our state machine we can then execute our Step Function by clicking Start Exe
 
 ![7  Start Execution](https://user-images.githubusercontent.com/68379635/102610574-5a544680-4125-11eb-844b-ba82fdbbe4ed.PNG)
 
-We then start the execution and this will execute successfully and we can see the execution event:
+We then start the execution and this will execute successfully and we can see the execution event in the history at the bottom:
 
 ![8  Execution Event](https://user-images.githubusercontent.com/68379635/102610936-f5e5b700-4125-11eb-8be8-5bc93efa2cc0.PNG)
 
 We can also click on CallAPI in the Graph Inspector and then in the Step Output we can see the response from our API and Lambda:
 
 ![9  Step output](https://user-images.githubusercontent.com/68379635/102611125-42c98d80-4126-11eb-8dca-3b1672e2b57e.PNG)
+
+You can also test this in an API application such as Insomnia by entering the API URL and the POST method and this will return the body of the Lambda function:
+
+![11  Insomnia](https://user-images.githubusercontent.com/68379635/102614627-77404800-412c-11eb-8f86-0e3cefd72780.PNG)
 
 Once you are done I would suggest deleting your state machine as this is not within the free tier.
